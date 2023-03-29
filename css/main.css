@@ -87,6 +87,40 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html, body {
+  height: 100%;
+}
+
+#content {
+  height: 100%;
+  /*background-color: aqua;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.center {
+  /*background-color: bisque;*/
+  width: 30%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 90%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.center p {
+  margin: 0.6em 0.5em;
+}
+
+#cat {
+  width: 100%;
+  border-radius: 0.6em;
+}
+
+#cat:hover {
+  box-shadow: 0.3em 0.3em 0.4em black;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
